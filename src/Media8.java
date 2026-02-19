@@ -9,12 +9,6 @@ public class Media8 {
         double soma;
         double media;
 
-//        for (int i =0; i < 8 ; i++ ){
-//            System.out.println("Digite um numero real: ");
-//            numeros = num.nextDouble();
-//            vetorNumeros[i] = numeros;
-//            PrintarVetor(vetorNumeros);
-//        }
 
         double[] novoVetorNumero = criaVetor(6);
 
