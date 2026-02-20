@@ -2,22 +2,21 @@ import java.util.Scanner;
 
 public class Media8 {
     public static void main(String args[]){
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner num = new Scanner(System.in);
-        double [] vetorNumeros = new double[8];
         double numeros = 0;
         double soma;
         double media;
 
-
-        double[] novoVetorNumero = criaVetor(6);
+        System.out.println("Digite o tamanho do vetor: ");
+        int tamanhoVetor = scanner.nextInt();
+        double[] novoVetorNumero = criaVetor(scanner, tamanhoVetor);
 
         media = calculaMedia(novoVetorNumero);
         System.out.println(media);
     }
 
-    public static double[] criaVetor(int tamanhoVetor) {
-        Scanner scanner = new Scanner(System.in);
+    public static double[] criaVetor(Scanner scanner, int tamanhoVetor) {
         double [] vetorNumeros = new double[tamanhoVetor];
         double inputNumero;
 
