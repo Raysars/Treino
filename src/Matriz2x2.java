@@ -40,9 +40,7 @@ public class Matriz2x2 {
         for (int i=0; i < matriz.length; i++){
             for ( int j=0; j < matriz[i].length; j++) {
                 System.out.printf("%4d", matriz[i][j]);
-                //soma = soma + matriz[i][j];
 
-                //  ou soma += matriz[i][j];
             }
             System.out.printf("\n");
         }

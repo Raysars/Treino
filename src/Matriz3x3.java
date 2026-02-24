@@ -18,6 +18,7 @@ public class Matriz3x3 {
                 numeros = scanner.nextInt();
                 System.out.printf("O número escolhido foi %d %n", numeros);
                 matriz[linha][coluna]=numeros;
+
             }
 
         }
